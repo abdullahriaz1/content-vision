@@ -1,0 +1,58 @@
+.video-player {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-element {
+  width: 100%;
+  height: auto;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+
+.play-pause-button,
+.fullscreen-button {
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.play-pause-button:hover,
+.fullscreen-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.video-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.fullscreen .video-element {
+  width: 100vw;
+  height: 100vh;
+}
+
+.fullscreen .controls {
+  bottom: 20px;
+}
