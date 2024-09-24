@@ -1,0 +1,4 @@
+backend/node_modules/*
+backend/videos/*
+.DS_Store
+my-app/node_modules/*
